@@ -1,8 +1,12 @@
-function takeANumber(line, name){
+function takeANumber(line, ticket){
 
-  line.push(name);
+var ticket= line.length
+  return line.lenth === 0
+  
 
-  return 'Welcome, ' + name + '. You are number ' + (line.length) + ' in line.';
+  line.push(ticket);
+
+  return 'Welcome, ' + ticket + '. You are number ' + (line.length) + ' in line.';
 }
 
 var new_line = ["Ada", "Grace", "Kent"];
